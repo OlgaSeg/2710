@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#999 ;
+}
+.container
+{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container_title
+{
+    flex-basis: 100%;
+
+}
+.container_one,.container_two, .container_three
+{
+    flex-basis:30% ;
+}
+.container>div{
+    padding:40px;
+}
